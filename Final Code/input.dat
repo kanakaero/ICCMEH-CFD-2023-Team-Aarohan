@@ -1,0 +1,22 @@
+LOAD opt4412).DAT 
+ PANE
+OPER 
+VISC 1.825E-05 
+Mach 0.4000 
+Re 2362708.2075 
+ITER 1500 
+pacc 
+
+
+AseQ
+ 0
+ 5
+ 0.5
+dump
+ output(3.0).dat
+cpwr xvscp(3.0).dat
+pwrt
+PolarP.dat
+plis
+
+quit
